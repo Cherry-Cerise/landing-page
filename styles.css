@@ -8,9 +8,11 @@
 }
 
 ul {
-    margin: 0;
-    padding: 0;
     list-style-type: none;
+}
+
+li {
+    margin-left: 5px;
 }
 
 a {
@@ -86,7 +88,7 @@ a {
 }
 
 .img-border {
-    border: 3px solid lightblue;
+    border: 3px solid #3882F6;
     border-radius: 5px;
 }
 
@@ -100,6 +102,7 @@ a {
 }
 
 .quote-container {
+    padding: 75px 172px;
     display: flex;
     flex-direction: column;
 }
@@ -119,22 +122,22 @@ a {
 .big-banner {
     background-color: #3882F6;
     color: white;
-    margin: 75px 100px;
-    padding: 20px 30px;
+    margin: 50px 125px;
+    padding: 25px 75px;
     /* text-align: center; */
     display: flex;
+    justify-content: space-between;
 }
 
-button {
-    background-color: #3882F6;
-    color: white;
-}
-
-.with-border {
-    border: 3px solid white;
+.button-with-border {
+    padding: 7px 20px;
+    border: 1px solid white;
+    border-radius: 8px;
     align-self: center;
 }
 .footer {
     background-color: #1F2937;
+    color: rgba(255, 255, 255, 0.678);
     text-align: center;
+    padding: 20px;
 }
