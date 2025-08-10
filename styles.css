@@ -74,15 +74,25 @@ a {
 }
 
 .information-header {
+    margin: 30px auto;
     text-align: center;
 }
 
 .info-box {
     display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 60px;
 }
 
 .img-border {
     border: 3px solid lightblue;
+    border-radius: 5px;
+}
+
+.info {
+    text-align: center;
+    width: 130px;
 }
 
 .quote-space {
