@@ -131,7 +131,7 @@ a {
 
 .button-with-border {
     padding: 7px 20px;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 8px;
     align-self: center;
 }
