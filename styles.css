@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Roboto, Times, serif;
     margin: 0;
@@ -62,4 +68,60 @@ a {
 
 .sign-up-button {
     background-color: #3882F6;
+}
+
+.information-header {
+    text-align: center;
+}
+
+.info-box {
+    display: flex;
+}
+
+.img-border {
+    border: 3px solid lightblue;
+}
+
+.quote-space {
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-attribution {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.big-banner {
+    background-color: #3882F6;
+    color: white;
+    margin: 75px 100px;
+    padding: 20px 30px;
+    /* text-align: center; */
+    display: flex;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.with-border {
+    border: 3px solid white;
+    align-self: center;
+}
+.footer {
+    background-color: #1F2937;
+    text-align: center;
 }
